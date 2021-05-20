@@ -1,0 +1,43 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	background: $gray;
+	text-align: center;
+	font-size: 12px;
+	color: $black;
+	a {
+		cursor: pointer;
+		text-decoration: none;
+		color: $black;
+		opacity: 0.35;
+		&.router-link-active,
+		&:hover,
+		&:focus,
+		&:active {
+			opacity: 1;
+		}
+	}
+	svg {
+		margin-bottom: 8px;
+	}
+	> ul {
+		display: flex;
+		flex-direction: column;
+	}
+	li {
+		margin-bottom: 38px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&.users {
+			margin-top: auto;
+			+ li.logout {
+				margin-top: 0;
+			}
+		}
+		&.logout {
+			margin-top: auto;
+		}
+	}
+}

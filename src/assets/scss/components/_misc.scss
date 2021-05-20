@@ -1,0 +1,53 @@
+.well {
+	background: $gray;
+	color: $black;
+	font-size: 14px;
+	padding: 10px;
+	border: 1px solid $gray-dark;
+	margin-bottom: 20px;
+	&--large {
+		padding: 22px;
+		text-align: center;
+	}
+}
+
+ul {
+	li {
+		display: inline-block;
+		width: 100%;
+	}
+	&.nested {
+		padding-top: 10px;
+		padding-left: 10px;
+		margin-bottom: 20px;
+		li {
+			position: relative;
+			padding-left: 22px;
+			&:before {
+				position: absolute;
+				top: -14px;
+				left: 0;
+				content: '';
+				height: 20px;
+				width: 14px;
+				float: left;
+				border-left: 1px dashed $gray-dark;
+				border-bottom: 1px dashed $gray-dark;
+			}
+		}
+	}
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	color: $blue;
+	cursor: pointer;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: underline;
+	}
+}

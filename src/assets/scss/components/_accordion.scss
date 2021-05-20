@@ -1,0 +1,30 @@
+.accordion {
+	margin-bottom: 20px;
+	&__title {
+		position: relative;
+		width: 100%;
+		background: $gray;
+		padding: 10px;
+		input {
+			margin-bottom: 0;
+		}
+		.inline-form {
+			margin-bottom: 0;
+		}
+		.accordion__action {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 10px;
+		}
+	}
+	&__content {
+		padding: 20px;
+		background: $gray-light;
+	}
+	&--flush {
+		+ .accordion {
+			margin-top: -20px;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+.btn {
+	display: inline-block;
+	padding: 10px 14px;
+	font-weight: bold;
+	font: 600 16px $body-font;
+	text-decoration: none;
+	color: $black;
+	background: $gray;
+	border: 1px solid $gray-dark;
+	box-shadow: 0 4px 10px rgba($black, 0.1);
+	cursor: pointer;
+	transition: all .3s ease;
+	&:hover,
+	&:focus {
+		box-shadow: 0 6px 10px rgba($black, 0.15)
+	}
+	&:active {
+		box-shadow: 0 6px 10px rgba($black, 0.15),
+					inset 0 2px 4px rgba(black, 0.05)
+	}
+	&:focus {
+		outline: 0;
+	}
+	&--blue {
+		color: $white;
+		background-color: $blue;
+		border-color: $blue-dark;
+	}
+	&--red {
+		color: $white;
+		background-color: $red;
+		border-color: $red-dark;
+	}
+	&--clear-red {
+		color: $red;
+		background-color: transparent;
+		border-color: transparent;
+		box-shadow: none;
+		&:hover,
+		&:focus,
+		&:active {
+			box-shadow: none;
+		}
+	}
+	&--small {
+		height: 34px;
+		line-height: 34px;
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 14px;
+	}
+	&[disabled] {
+		opacity: 0.5;
+	}
+}

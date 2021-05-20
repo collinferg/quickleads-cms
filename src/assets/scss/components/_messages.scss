@@ -1,0 +1,10 @@
+.message {
+	&.success {
+		display: block;
+		width: 100%;
+		background-color: $green;
+		color: $white;
+		padding: 12px;
+		margin-bottom: 20px;
+	}
+}

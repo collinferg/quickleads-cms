@@ -1,0 +1,28 @@
+.toolbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 0;
+	.actions {
+		margin-left: auto;
+	}
+	.tools,
+	.actions {
+		> * {
+			display: inline-block;
+			+ * {
+				margin-left: 7px;
+			}
+		}
+	}
+	.tool {
+		display: flex;
+		.btn {
+			margin-left: 7px;
+		}
+	}
+	.v-select {
+		margin-bottom: 0;
+		min-width: 200px;
+	}
+}

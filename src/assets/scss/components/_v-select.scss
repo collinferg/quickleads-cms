@@ -1,0 +1,15 @@
+.v-select {
+	display: inline-block;
+	min-width: 330px;
+	border-radius: 0;
+	height: 34px;
+	margin-bottom: 30px;
+	.vs__dropdown-toggle {
+		border-radius: 0;
+		background: $white;
+		min-height: 34px;
+	}
+	input {
+		min-width: 0;
+	}
+}

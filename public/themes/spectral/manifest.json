@@ -1,0 +1,401 @@
+{
+	"name": "Spectral",
+	"key": "spectral",
+	"layouts": [
+		{
+			"name": "Generic",
+			"key": "generic",
+			"sections": [
+				{
+					"key": "masthead",
+					"label": "Masthead",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "subtitle",
+							"label": "Subtitle",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Masthead Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 1800x1280"
+						}
+					]
+				},
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Landing",
+			"key": "landing",
+			"sections": [
+				{
+					"key": "masthead",
+					"label": "Masthead",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "subtitle",
+							"label": "Subtitle",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-text",
+							"label": "Button Text",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-link",
+							"label": "Button Link",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Masthead Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 1800x1280"
+						}
+					]
+				},
+				{
+					"key": "section-one",
+					"label": "Section One",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "section-two",
+					"label": "Section Two",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Feature Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 748x529"
+						}
+					]
+				},
+				{
+					"key": "section-three",
+					"label": "Section Three",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Feature Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 748x529"
+						}
+					]
+				},
+				{
+					"key": "section-four",
+					"label": "Section Four",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Feature Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 748x529"
+						}
+					]
+				},
+				{
+					"key": "section-five",
+					"label": "Section Five",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "highlight-one",
+							"label": "Hightlight One",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "highlight-two",
+							"label": "Hightlight Two",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "highlight-three",
+							"label": "Hightlight Three",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "highlight-four",
+							"label": "Hightlight Four",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "highlight-five",
+							"label": "Hightlight Five",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "highlight-six",
+							"label": "Hightlight Six",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "section-six",
+					"label": "Section Six",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-one-text",
+							"label": "Button One Text",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-one-link",
+							"label": "Button One Link",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-two-text",
+							"label": "Button Two Text",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "button-two-link",
+							"label": "Button Two Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blog List",
+			"key": "blog-list",
+			"sections": [
+				{
+					"key": "masthead",
+					"label": "Masthead",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "subtitle",
+							"label": "Subtitle",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Masthead Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 1800x1280"
+						}
+					]
+				},
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blog Post",
+			"key": "blog-post",
+			"sections": [
+				{
+					"key": "preview",
+					"label": "Preview Content",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Preview Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "excerpt",
+							"label": "excerpt",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "masthead",
+					"label": "Masthead",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "subtitle",
+							"label": "Subtitle",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Masthead Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": [],
+							"note": "Optimal Dimensions: 1800x1280"
+						}
+					]
+				},
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

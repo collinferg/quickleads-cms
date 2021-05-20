@@ -1,0 +1,345 @@
+{
+	"name": "Phantom",
+	"key": "phantom",
+	"layouts": [
+		{
+			"name": "Generic",
+			"key": "generic",
+			"sections": [
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Page Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Main Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-one",
+					"label": "Feature 1",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-two",
+					"label": "Feature 2",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-three",
+					"label": "Feature 3",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blog List",
+			"key": "blog-list",
+			"sections": [
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Page Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Main Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blog Post",
+			"key": "blog-post",
+			"sections": [
+				{
+					"key": "preview",
+					"label": "Preview Content",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Preview Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "excerpt",
+							"label": "excerpt",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "main",
+					"label": "Main Content",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Post Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "image",
+							"label": "Main Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-one",
+					"label": "Feature 1",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-two",
+					"label": "Feature 2",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				},
+				{
+					"key": "feature-three",
+					"label": "Feature 3",
+					"elements": [
+						{
+							"key": "image",
+							"label": "Image",
+							"type": "file",
+							"accept": "image/*",
+							"multiple": false,
+							"value": []
+						},
+						{
+							"key": "header",
+							"label": "Header",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "tagline",
+							"label": "Tagline",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "link",
+							"label": "Link",
+							"type": "text",
+							"value": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gallery",
+			"key": "gallery",
+			"sections": [
+				{
+					"key": "gallery",
+					"label": "Gallery",
+					"elements": [
+						{
+							"key": "title",
+							"label": "Page Title",
+							"type": "text",
+							"value": ""
+						},
+						{
+							"key": "content",
+							"label": "Content",
+							"type": "textarea",
+							"value": ""
+						},
+						{
+							"key": "images",
+							"label": "Images",
+							"type": "gallery",
+							"multiple": true,
+							"value": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

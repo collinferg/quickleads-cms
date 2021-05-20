@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Documentation | Quickleads CMS</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+	<div data-include="header"></div>
+	
+	<div class="container pt-3 pb-3">
+		<div class="row">
+			<div class="col-6">
+				<h1>For Admins...</h1>
+				<hr>
+				<h5>Notes</h5>
+				<ul>
+					<li><b>To create a new user</b>, assign a generic password and instruct the user to use the "password reset" functionality from the homepage. This is the only way to reset your password currently.</li>
+				</ul>
+			</div>
+			<div class="col-6 text-muted">
+				<h1>For Devs..</h1>
+				<hr>
+				<h5>Notes</h5>
+				<ul>
+					<li>Themes should have a form whos action="submit.php" - The CMS includes javascript to automatically handle ajaxing data and sending emails.</li>
+					<li>Dashboard -> Websites -> SITE -> Email value should not have a trailing slash in the URL</li>
+					<li>To generate sitemap, run following from CLI: <b>php generateSitemap.php.php https://www.example.com</b></li>
+				</ul>
+
+				<h5>To do:</h5>
+				<ul>
+					<li><b>Page errors if no form is assigned</b></li>
+					<li>Add filter to website "url" field to prevent trailing slash</li>
+					<li>Prevent creation of multiple websites with the same name</li>
+					<li>Prevent creation of multiple pages with same URL, and website assignment</li>
+				</ul>
+
+				<h5>Ideas:</h5>
+				<ul>
+					<li>Add filter to Pages list to allow filtering based on site</li>
+					<li>Add search interface for Websites, Pages, and Forms</li>
+					<li>Improve user management. Currently cannot do much user management from the admin</li>
+					<li>Add "verfiy password" input to user creation form - This is particularly useful when the existing user management capabilities are so limited</li>
+					<li>
+						<b>Add media manager</b>
+						<ul>
+							<li>Browse all media uploaded to specific store</li>
+							<li>Allow users to select pre-uploaded media when adding images to a page / website</li>
+						</ul>
+					</li>
+					<li>Add "notes" to image inputs that specify desired image dimensions</li>
+				</ul>
+
+				<h5>Creating Blogs..</h5>
+				<ul>
+					<li>To add support for a "blog" to a theme, your theme must have both a "Blog List" and a "Blog Post" layout with "blog-list" and "blog-post" <b>keys</b>, respectively.</li>
+					<li>The posts can be accessed on the frontend via <b>$cms->posts</b></li>
+				</ul>
+
+				<h5>Creating Galleries..</h5>
+				<ul>
+					<li>To add support for a "gallery" to a theme, your theme must have a "gallery" layout with a key = "gallery"</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(function () {
+		var includes = $('[data-include]')
+		$.each(includes, function () {
+			var file = 'components/' + $(this).data('include') + '.html';
+			$(this).load(file);
+		})
+	});
+</script>
+</body>
+</html>
